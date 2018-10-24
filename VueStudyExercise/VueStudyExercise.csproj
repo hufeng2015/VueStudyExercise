@@ -65,6 +65,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="02模板语法.js" />
+    <Content Include="02模板语法.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -74,9 +76,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.css" />
-    <Content Include="Index.html" />
-    <Content Include="index.js" />
+    <Content Include="01Vue 实例.css" />
+    <Content Include="01Vue 实例.html" />
+    <Content Include="01Vue 实例.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
