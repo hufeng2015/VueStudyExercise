@@ -1,10 +1,17 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="utf-8"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>02模板语法</title>
 </head>
 <body>
-
+<!--v-once:执行一次性地插值，当数据改变时，插值处的内容不会更新。但请留心这会影响到该节点上的其它数据绑定-->
+<div id="app1" v-once>这个将不会改变: {{ message }}</div>
+<div id="app2" v-html="rawHtml">内嵌HTML</div>
+<button id="app3" v-bind:disable="isButtonDisable" v-on:click="show">{{isButtonDisable}}</button>
+<div id="app4">{{ message.split('').reverse().join('') }}</div>
+<a id="app5" v-bind:href="url">{{url}}</a>
+<script src="02模板语法.js"></script>
 </body>
 </html>
