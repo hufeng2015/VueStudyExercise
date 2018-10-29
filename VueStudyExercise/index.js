@@ -77,16 +77,16 @@ Vue.component('lever1',
     {
         template:'<li>这是一个简单的模板使用</li>'
     });
-var vmLever1 = new Vue({
+var lever1 = new Vue({
     el: "#lever-1",
     data: {
         rows: [
-            { date: '2018年10月29日 10:51:08', id: 1 },
-            { date: '二〇一八年十月二十九日 10:51:17', id: 2 },
-            { date: '2018-10-29 10:51:24', id: 3 },
-            { date: '数据', id: 4 },
-            { date: '2018年10月29日', id: 5 }
-        ]
+            { date: '2018年10月29日 10:51:08' },
+            { date: '二〇一八年十月二十九日 10:51:17' },
+            { date: '2018-10-29 10:51:24' },
+            { date: '数据' },
+            { date: '2018年10月29日' }
+            ]
     }
 });
 Vue.component('lever2',
@@ -94,7 +94,7 @@ Vue.component('lever2',
         props: ['row'],
         template: '<li>{{ row.date }}……{{ row.id }}</li>'
     });
-var vmLever2 = new Vue({
+var lever1 = new Vue({
     el: "#lever-2",
     data: {
         rows: [
