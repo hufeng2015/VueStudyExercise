@@ -69,6 +69,8 @@
     <Content Include="02模板语法.html" />
     <Content Include="03计算属性和侦听器.html" />
     <Content Include="03计算属性和侦听器.js" />
+    <Content Include="06条件渲染.html" />
+    <Content Include="06条件渲染.js" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
